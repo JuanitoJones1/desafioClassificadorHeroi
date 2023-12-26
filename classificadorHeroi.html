@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nível de classificador de heroi</title>
+</head>
+
+<body>
+    <script>
+        var nomeHeroi = "Hércules"
+        var xp = Number((prompt)("Entre com o número de XP do heroi " + nomeHeroi + " e em seguida classificaremos seu nível: "))
+        var xpFerro = "Ferro"
+        var xpBronze = "Bronze"
+        var xpPrata = "Prata"
+        var xpOuro = "Ouro"
+        var xpPlatina = "Platina"
+        var xpAscendente = "Ascendente"
+        var xpImortal = "Imortal"
+        var xpRadiante = "Radiante"
+
+
+        if (xp < 1000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpFerro)
+        }
+        if (xp >= 1000 & xp <= 2000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpBronze)
+        } if (xp >= 2001 & xp <= 5000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpPrata)
+        } if (xp >= 6001 & xp <= 7000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpOuro)
+        } if (xp >= 7001 & xp <= 8000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpPlatina)
+        } if (xp >= 8001 & xp <= 9000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpAscendente)
+        } if (xp >= 9001 & xp <= 1000) {
+            alert("O heroi de nome " + nomeHeroi + " está no nível " + xpImortal)
+        } if (xp >= 10001) {
+            alert("O nome do heroi " + nomeHeroi + " está no nível " + xpRadiante)
+        }
+    </script>
+</body>
+
+</html>
